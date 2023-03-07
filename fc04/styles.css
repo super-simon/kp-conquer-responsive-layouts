@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3125rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #f3eed9;
+}
+
+.header__secondary-header {
+  color: #222c2a;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+.header__main-header {
+  color: #824936;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3.75rem;
+  margin-top: 1.25rem;
+}
+
+.double-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.double-column__column {
+  /* flex-basis: 48%; */
+  align-self: flex-start;
+  width: 48%;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section__header {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 2.25rem;
+  margin-top: 0;
+}
+
+.section__header--second {
+  color: #824936;
+  text-align: center;
+}
+
+.section--third {
+  background-color: #222c2a;
+  color: white;
+}
+
+.section--fourth {
+  background-color: #824936;
+  color: white;
+}
