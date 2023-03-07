@@ -81,11 +81,11 @@ h1 {
 }
 
 .article {
+  padding-top: 1em;
   width: 62%;
 }
 
 .article__header {
-  padding-top: 1rem;
   color: #136c72;
 }
 
@@ -96,7 +96,7 @@ h1 {
 }
 
 .sidebar__block {
-  padding: 1rem 2rem;
+  padding: 1em 2em;
   text-align: center;
 }
 
