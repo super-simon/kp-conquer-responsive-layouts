@@ -77,7 +77,7 @@ h1 {
 }
 
 .main {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .article {
@@ -93,11 +93,12 @@ h1 {
   width: 32%;
   background-color: #136c72;
   color: white;
+  text-align: center;
+  padding: 1em;
 }
 
-.sidebar__block {
-  padding: 1em 2em;
-  text-align: center;
+.sidebar__text {
+  padding-bottom: 2em;
 }
 
 .btn {
